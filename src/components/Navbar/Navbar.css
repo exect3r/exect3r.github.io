@@ -1,7 +1,9 @@
 .nav-list {
+  list-style-type: none;
   margin-right: 1.5em;
   display: flex;
 }
+
 .nav-list-item {
   margin-left: 1.5em;
 }
@@ -16,6 +18,7 @@
 
 @media (max-width: 600px) {
   .nav-list {
+    list-style-type: none;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -26,11 +29,9 @@
     height: 100%;
     z-index: 2;
   }
-
   .nav-list-item {
     margin: 0.5em 0;
   }
-
   .app .nav-hamburger {
     display: flex;
     z-index: 2;

@@ -39,8 +39,9 @@ h4 {
   font-size: 1.3rem;
 }
 
-ul {
+ul.no-dec {
   list-style-type: none;
+  padding-left: 0px;
 }
 
 a {

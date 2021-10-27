@@ -8,7 +8,7 @@ const ProjectContainer = ({ project }) => (
       <h3>{project.name}</h3>
 
       <p className='project-description'>{project.description}</p>
-      <ul className='project-stack'>
+      <ul className='project-stack no-dec'>
         {project.stack.map((item) => (
           <li key={uniqid()} className='project-stack-item'>
             {item}
