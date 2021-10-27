@@ -1,0 +1,38 @@
+.project-page {
+  position: absolute;
+  padding-bottom: 4em;
+  width: 95%;
+  max-width: 1100px;
+}
+
+.project-title {
+  color: var(--clr-primary);
+}
+
+.project-section {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.ps-2-2 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.ps-2-1 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.project-section-desc {
+  margin: auto;
+}
+
+.project-section-img {
+  margin: auto;
+}
+
+.desc-paragraph {
+  margin-bottom: 1.5em;
+}

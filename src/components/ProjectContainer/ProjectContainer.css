@@ -1,0 +1,40 @@
+.project {
+  height: 100%;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+.project-description {
+  margin-top: 1em;
+  margin-bottom: auto;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1.2em;
+  border-top: 1px var(--clr-fg-alt) solid;
+  padding-top: 1.2em;
+}
+
+.project-stack-item {
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+}
+
+.project .link-icon {
+  margin-left: 0.5em;
+}
